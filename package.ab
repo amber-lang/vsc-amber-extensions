@@ -1,0 +1,5 @@
+$vsce package$ failed {
+    echo "Please install VSCE to run this command"
+    echo "To do this, run:"
+    echo "\tnpm install -g @vscode/vsce"
+}

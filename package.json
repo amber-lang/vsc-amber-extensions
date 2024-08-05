@@ -1,0 +1,52 @@
+{
+	"name": "amber-language",
+	"displayName": "Amber Language",
+	"description": "Amber language support",
+	"version": "1.2.6",
+	"publisher": "Ph0enixKM",
+	"engines": {
+		"vscode": "^1.28.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/amber-lang/vsc-amber-extensions.git"
+	},
+	"author": "Paweł Karaś",
+	"categories": [
+		"Programming Languages"
+	],
+	"icon": "assets/icon.png",
+	"contributes": {
+		"languages": [
+			{
+				"id": "amber",
+				"aliases": [
+					"Amber",
+					"amber"
+				],
+				"extensions": [
+					".amber",
+					".ab"
+				],
+				"icon": {
+					"dark": "assets/icon.png",
+					"light": "assets/icon.png"
+				},
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "amber",
+				"scopeName": "source.amber",
+				"path": "./syntaxes/amber.tmLanguage.json"
+			}
+		],
+		"snippets": [
+			{
+				"language": "amber",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	}
+}
