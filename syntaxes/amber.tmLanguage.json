@@ -23,7 +23,7 @@
 			"patterns": [
 			{
 				"match": "(fun)\\s+(\\w[^\\(]+)",
-				
+
 				"captures": {
 					"1" : {
 						"name" : "keyword.control.amber"
@@ -32,10 +32,10 @@
 						"name" : "entity.name.function"
 					}
 				}
-			},	
+			},
 			{
 				"name": "keyword.control.amber",
-				"match": "\\b(if|loop|ref|return|fun|else|then|break|continue|and|or|not|let|import|from|pub|main|echo|as|in|fail|failed|status|silent|nameof|is|unsafe)\\b"
+				"match": "\\b(if|loop|ref|return|fun|else|then|break|continue|and|or|not|let|import|from|pub|main|echo|as|in|fail|failed|status|silent|nameof|is|unsafe|trust)\\b"
 			},
 			{
 				"match": "^#\\[.*\\]$",
